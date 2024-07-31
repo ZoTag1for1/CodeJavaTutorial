@@ -9,9 +9,9 @@ public class Calculator {
         System.out.println("4. Subtraction -");
         int choice = scanner.nextInt();
         System.out.println("Please enter two numbers:");
-        double num1 = scanner.nextDouble();
-        double num2 = scanner.nextDouble();
-        double result = 0;
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
+        int result = 0;
         switch (choice) {
             case 1:
                 result = num1 + num2;
